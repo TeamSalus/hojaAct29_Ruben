@@ -1,0 +1,19 @@
+{
+  "name": "hojaact29_ruben",
+  "version": "1.0.0",
+  "description": "Hoja activiades 29",
+  "main": "realmadrid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruben211/hojaAct29_Ruben.git"
+  },
+  "author": "Ruben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruben211/hojaAct29_Ruben/issues"
+  },
+  "homepage": "https://github.com/ruben211/hojaAct29_Ruben#readme"
+}
