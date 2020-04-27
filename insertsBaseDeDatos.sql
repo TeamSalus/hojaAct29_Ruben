@@ -1,4 +1,4 @@
-CREATE DATABASE jugadoresdel_realMadrid;
+CREATE DATABASE jugadores_realMadrid;
 
 USE jugadores_realMadrid
 
