@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Pagina del Real Madrid</title>
-</head>
-<body>
-	<h1>BIENVENIDO A LA PAGINA DE LOS JUGADORES DEL REAL MADRID</h1>
-	<p>Bienvenido a la pagina de los jugadores del <strong>Real Madrid</strong>, aqui podrás ver la información mediante el dorsal</p>
-	<form action="/" method="POST">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Pagina del Real Madrid</title>
+		<link rel="stylesheet" href="/css/dorsal.css" />
+	</head>
+	<body>
+		<header>
+			<img src="/img/realMadrid.png" alt="escudo Real Madrid" />
+			<h1>BIENVENIDO A LA PAGINA DE LOS JUGADORES DEL REAL MADRID</h1>
+		</header>
+
 		<p>
-			<label for="id_dorsal">Dorsal: </label>
-			<input type="text" name="dorsal" id="id_dorsal">
+			Bienvenido a la pagina de los jugadores del
+			<strong>Real Madrid</strong>, aqui podrás ver la información
+			mediante el dorsal
 		</p>
-		<p>
-			<input type="submit" id="botonSubmit">
-		</p>
-	</form>
-</body>
+		<form action="/" method="POST">
+			<p>
+				<label for="id_dorsal">Dorsal: </label>
+				<input type="text" name="dorsal" id="id_dorsal" />
+			</p>
+			<p>
+				<input type="submit" id="botonSubmit" />
+			</p>
+		</form>
+	</body>
 </html>
