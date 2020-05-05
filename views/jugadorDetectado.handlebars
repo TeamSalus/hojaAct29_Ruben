@@ -1,10 +1,14 @@
+<img src="/img/realMadrid.png" alt="escudo Real Madrid" />
 <h1><strong> Aqui tienes al jugador buscado </strong></h1>
 <br>
-<p>se trata de</p>
-<br>
-<br>
+
 {{#if registros}}
 	{{#each registros}}
-		<p> - Numero dorsal: {{dorsal}} - Nombre: {{nombre}} - Apellido: {{apellido}} - Nacionalidad: {{nacionalidad}}</p>
+		<p>Se trata de: Numero dorsal: {{dorsal}} - Nombre: {{nombre}} - Apellido: {{apellido}} - Nacionalidad: {{nacionalidad}}</p>
+		<img src="./img/{{dorsal}}.jpeg" alt="{{nombre}}" />
 	{{/each}}
+	<div>	
+<button><a href="http://localhost:3000/"/>Busca otro dorsal</button>
+</div>
 {{/if}}
+
